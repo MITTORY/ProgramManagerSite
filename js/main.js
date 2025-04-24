@@ -85,24 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Обработка скачивания программы
     document.querySelector('.primary-btn.large-btn').addEventListener('click', function(e) {
         e.preventDefault();
-
-        const fileUrl = 'download/ProgramManager.rar';
-    
-        const link = document.createElement('a');
-        link.href = fileUrl;
-        link.download = 'ProgramManager.rar';
-    
-        // Добавляем обработчики
-        link.onload = function() {
-          document.body.removeChild(link);
-        };
-    
-        link.onerror = function() {
-            document.body.removeChild(link);
-            alert('Ошибка скачивания. Пожалуйста, попробуйте позже.');
-        };
-
-        document.body.appendChild(link);
-        link.click();
+        
+        window.open('https://mega.nz/file/9ExXwKaS#qkxM4f33i54geHdDnoplsXEyAhgEJPQbpnqNMTe3D1k', '_blank');
     });
 });
