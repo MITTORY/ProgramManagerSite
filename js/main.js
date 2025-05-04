@@ -86,6 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.primary-btn.large-btn').addEventListener('click', function(e) {
         e.preventDefault();
         
-        window.open('https://mega.nz/file/sYxiDJDY#g569NtjsF-cEck6i41B89Myi7aulbaUA-85nPcVjSfY', '_blank');
+        window.open('https://github.com/MITTORY/ProgramManager/releases', '_blank');
     });
 });
